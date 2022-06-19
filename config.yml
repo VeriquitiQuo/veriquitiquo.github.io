@@ -1,0 +1,33 @@
+baseURL: 'https://veriquitiquo.github.io'
+languageCode: en-HK
+title: Online Tree Planting
+theme: vq
+taxonomies:
+Copyright: "&copy; 2022 Veriquiti Quo"
+CopyrightLink: "https://instagram.com/veriquiti.quo"
+params:
+#  mainSections:
+#    - regions
+  assets:
+    favicon: "media/favicon.ico"
+    favicon16x16: "media/favicon-16x16.png"
+    favicon32x32: "media/favicon-32x32.png"
+    apple_touch_icon: "media/apple-touch-icon.png"
+  disableThemeToggle: true
+  disableScrollToTop: true
+  ShowBreadCrumbs: true
+  label:
+    icon:
+      - /media/veriquiti-quo-logo.png
+    iconHeight: 60
+    text: "Veriquiti Quo"
+    doNotShowTitle: true
+  env: production
+  description: Abandoned website? Might as well do something fun with it
+  images:
+    - "media/thumbnail.jpg"
+  doNotShowHeader: true
+#menu:
+#  main:
+#    - name: All Regions
+#      url: /regions/

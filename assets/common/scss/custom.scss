@@ -1,0 +1,118 @@
+:root {
+  --gap: 24px;
+  --content-gap: 20px;
+  --nav-width: 1024px;
+  --main-width: 840px;
+  --header-height: 60px;
+  --footer-height: 60px;
+  --radius: 8px;
+  --theme1: #e1e5e9;
+  --theme2: #33BBFF;
+  --theme3: #33FF66;
+  --theme4: #DDFF33;
+  --theme5: #9da8b2;
+  --entry: #f5f7f9;
+  --bs-primary: #1a2b3b;
+  --bs-secondary: #667380;
+  --bs-font-sans-serif: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+* {
+  &::selection {
+    background: var(--theme2);
+  }
+}
+
+html {
+  font-size: 1.1rem;
+  scrollbar-color: var(--theme3) var(--theme1);
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    background: var(--theme1);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--theme3);
+  }
+}
+
+body {
+  background: var(--theme);
+  color: var(--bs-primary);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--bs-secondary);
+
+  &:hover {
+    background: var(--theme4);
+    border-bottom: 1px solid var(--bs-primary);
+  }
+}
+
+.btn {
+  background: var(--theme4);
+  border-radius: .5em;
+}
+
+.navbar {
+  background: var(--theme1);
+}
+
+main {
+  //margin: 76px auto 0 auto;
+  margin: 0 auto 0 auto;
+  padding: 0 var(--gap);
+  max-width: calc(var(--main-width) + 2 * var(--gap));
+
+  img {
+    width: 100%;
+    max-width: var(--main-width);
+  }
+
+  .author-image {
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: var(--content-gap);
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: contain;
+  top: 0;
+  left: 0;
+  height: clamp(500px, 500px, 500px);
+}
+
+main article {
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  background: var(--theme2);
+}
+
+.post-content {
+  padding: var(--gap) 0;
+}
+
+.footer {
+  max-width: calc(var(--main-width) + var(--gap) * 2);
+  margin: auto;
+  padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
+  text-align: center;
+  line-height: 1rem;
+  font-size: .8rem;
+  color: var(--theme5);
+}

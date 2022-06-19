@@ -1,0 +1,11 @@
+.navbar picture, .navbar picture * {
+  height: 80px; }
+
+main {
+  margin-top: unset;
+  max-width: unset;
+  padding: unset; }
+  main picture * {
+    width: 100%;
+    min-width: calc(100vh * 7014 / 4959);
+    min-height: 100vh; }

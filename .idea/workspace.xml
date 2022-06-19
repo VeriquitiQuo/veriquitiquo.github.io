@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c425ab3-6853-4719-b41b-a3b49b845ce0" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/media/Jungle_Tree.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/media/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/media/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/media/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/media/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/media/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/media/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/media/thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/media/veriquiti-quo-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/media/veriquiti-quo-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/vq/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/common/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/common/scss/custom.scss_f300667da4f5b5f84e1a9e0702b2fdde.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/common/scss/custom.scss_f300667da4f5b5f84e1a9e0702b2fdde.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/custom.scss_48b060fe05b0a273d182ef83c0605941.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/custom.scss_48b060fe05b0a273d182ef83c0605941.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/custom.scss_48b060fe05b0a273d182ef83c0605941.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/custom.scss_48b060fe05b0a273d182ef83c0605941.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/archetypes/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/archetypes/default.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/alert.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/alert.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/base-component.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/base-component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/base-component.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/base-component.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/button.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/button.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/carousel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/carousel.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/collapse.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/collapse.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/dom/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/dom/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/dom/data.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/dom/data.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/dom/event-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/dom/event-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/dom/event-handler.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/dom/event-handler.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/dom/manipulator.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/dom/manipulator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/dom/manipulator.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/dom/manipulator.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/dom/selector-engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/dom/selector-engine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/dom/selector-engine.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/dom/selector-engine.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/dropdown.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/dropdown.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/modal.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/modal.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/popover.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/popover.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/scrollspy.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/scrollspy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/scrollspy.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/scrollspy.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/tab.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/tab.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/toast.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/toast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/toast.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/toast.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/dist/tooltip.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/dist/tooltip.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/index.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/index.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/index.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/index.umd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/base-component.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/base-component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/dom/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/dom/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/dom/event-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/dom/event-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/dom/manipulator.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/dom/manipulator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/dom/selector-engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/dom/selector-engine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/scrollspy.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/scrollspy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/toast.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/toast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/util/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/util/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/src/util/sanitizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/src/util/sanitizer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/browsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/browsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/helpers/fixture.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/helpers/fixture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/integration/bundle-modularity.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/integration/bundle-modularity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/integration/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/integration/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/integration/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/integration/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/integration/rollup.bundle-modularity.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/integration/rollup.bundle-modularity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/integration/rollup.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/integration/rollup.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/alert.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/alert.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/button.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/button.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/carousel.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/carousel.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/collapse.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/collapse.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/dom/data.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/dom/data.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/dom/event-handler.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/dom/event-handler.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/dom/manipulator.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/dom/manipulator.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/dom/selector-engine.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/dom/selector-engine.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/dropdown.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/dropdown.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/jquery.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/jquery.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/modal.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/modal.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/popover.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/popover.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/scrollspy.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/scrollspy.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/tab.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/tab.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/toast.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/toast.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/tooltip.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/tooltip.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/util/index.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/util/index.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/unit/util/sanitizer.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/unit/util/sanitizer.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/visual/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/visual/alert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/visual/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/visual/button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/visual/carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/visual/carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/visual/collapse.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/visual/collapse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/visual/dropdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/visual/dropdown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/visual/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/visual/modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/visual/popover.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/visual/popover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/visual/scrollspy.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/visual/scrollspy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/visual/tab.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/visual/tab.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/visual/toast.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/visual/toast.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/js/tests/visual/tooltip.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/js/tests/visual/tooltip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_accordion.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_containers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_containers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_toasts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/bootstrap-utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/bootstrap-utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/forms/_floating-labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/forms/_floating-labels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/forms/_form-check.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/forms/_form-check.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/forms/_form-control.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/forms/_form-control.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/forms/_form-range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/forms/_form-range.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/forms/_form-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/forms/_form-select.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/forms/_form-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/forms/_form-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/forms/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/forms/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/forms/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/forms/_labels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/forms/_validation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/forms/_validation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/helpers/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/helpers/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/helpers/_colored-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/helpers/_colored-links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/helpers/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/helpers/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/helpers/_ratio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/helpers/_ratio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/helpers/_stretched-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/helpers/_stretched-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/helpers/_text-truncation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/helpers/_text-truncation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/helpers/_visually-hidden.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/helpers/_visually-hidden.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_container.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_table-variants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_table-variants.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/mixins/_visually-hidden.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/mixins/_visually-hidden.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/utilities/_api.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/utilities/_api.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/common/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/common/404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/common/archive.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/common/archive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/common/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/common/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/common/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/common/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/common/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/common/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/common/post-entry.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/common/post-entry.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/common/post-single.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/common/post-single.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/common/profile-mode.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/common/profile-mode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/common/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/common/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/common/terms.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/common/terms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/core/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/core/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/core/theme-vars.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/core/theme-vars.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/core/zmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/core/zmedia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/extended/blank.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/extended/blank.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/css/hljs/an-old-hope.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/css/hljs/an-old-hope.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/js/fastsearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/js/fastsearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/js/fuse.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/js/fuse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/js/highlight.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/js/highlight.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/assets/scss/common/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/_default/_markup/render-image.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/_default/_markup/render-image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/_default/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/_default/archives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/_default/baseof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/_default/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/_default/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/_default/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/_default/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/_default/rss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/_default/rss.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/_default/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/_default/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/_default/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/_default/terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/assets/scss/common/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/anchored_headings.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/anchored_headings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/author.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/breadcrumbs.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/breadcrumbs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/comments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/cover.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/cover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/edit_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/edit_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/extend_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/extend_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/extend_head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/extend_head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/home_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/home_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/index_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/index_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/post_canonical.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/post_canonical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/post_meta.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/post_meta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/post_nav_links.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/post_nav_links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/share_icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/share_icons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/social_icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/social_icons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/svg.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/svg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/templates/opengraph.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/templates/opengraph.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/templates/schema_json.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/templates/schema_json.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/templates/twitter_cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/templates/twitter_cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/partials/translation_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/translation_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/shortcodes/blockquote.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/shortcodes/blockquote.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/shortcodes/carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/shortcodes/carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/shortcodes/collapse.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/shortcodes/collapse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/shortcodes/figure.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/shortcodes/figure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/shortcodes/ltr.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/shortcodes/ltr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/shortcodes/partial.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/shortcodes/partial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/shortcodes/rawhtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/shortcodes/rawhtml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/layouts/shortcodes/rtl.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/shortcodes/rtl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/qcac/theme.toml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/theme.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2Anc1u1HejDF0xDnCZPBLgpqS8r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\veriquitiquo.github.io\content\media" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c425ab3-6853-4719-b41b-a3b49b845ce0" name="Changes" comment="" />
+      <created>1655648581162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655648581162</updated>
+      <workItem from="1655648584082" duration="783000" />
+      <workItem from="1655649390520" duration="10532000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1655649413112</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655649413112</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+</project>
