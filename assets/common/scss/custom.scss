@@ -19,13 +19,13 @@
 
 * {
   &::selection {
-    background: var(--theme2);
+    background: var(--theme3);
   }
 }
 
 html {
   font-size: 1.1rem;
-  scrollbar-color: var(--theme3) var(--theme1);
+  scrollbar-color: var(--theme2) var(--theme1);
   scrollbar-width: thin;
 
   &::-webkit-scrollbar {
@@ -34,7 +34,7 @@ html {
   }
 
   &::-webkit-scrollbar-thumb {
-    background: var(--theme3);
+    background: var(--theme2);
   }
 }
 
@@ -114,5 +114,11 @@ main article {
   text-align: center;
   line-height: 1rem;
   font-size: .8rem;
-  color: var(--theme5);
+  color: var(--bs-secondary);
+}
+
+#gitinfo {
+  font-size: .8em;
+  color: var(--bs-secondary);
+  line-height: 1rem;
 }

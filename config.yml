@@ -1,4 +1,4 @@
-baseURL: 'https://veriquitiquo.github.io'
+baseURL: 'https://qcopendays.com'
 languageCode: en-HK
 title: Online Tree Planting
 theme: vq
@@ -27,7 +27,9 @@ params:
   images:
     - "media/thumbnail.jpg"
   doNotShowHeader: true
+
 #menu:
 #  main:
 #    - name: All Regions
 #      url: /regions/
+enableGitInfo: true
