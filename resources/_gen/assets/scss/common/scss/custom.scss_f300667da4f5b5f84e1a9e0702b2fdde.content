@@ -91,7 +91,10 @@ main article {
   font-size: .8rem;
   color: var(--bs-secondary); }
 
-#gitinfo {
+.small-grey-text {
   font-size: .8em;
   color: var(--bs-secondary);
   line-height: 1rem; }
+
+.video-shortcode {
+  width: 100%; }

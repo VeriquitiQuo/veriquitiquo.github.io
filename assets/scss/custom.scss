@@ -3,16 +3,19 @@ main {
   max-width: unset;
 }
 
-.main-content, .post-content, .tree-desc {
+.main-content, .post-content {
   display: block;
   margin: 0 auto 0 auto;
-  padding: 0 var(--gap);
   max-width: calc(var(--main-width) + 2 * var(--gap));
 }
 
 .tree-wrapper {
   display: block;
   position: relative;
+
+  * {
+    padding: 0;
+  }
 }
 
 #trees {

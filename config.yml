@@ -1,6 +1,6 @@
 baseURL: 'https://qcopendays.com'
 languageCode: en-HK
-title: Online Tree Planting
+title: Abandoned Website? Might as Well do Something
 theme: vq
 taxonomies:
 Copyright: "&copy; 2022 Veriquiti Quo"
@@ -23,11 +23,10 @@ params:
     text: "Veriquiti Quo"
     doNotShowTitle: true
   env: production
-  description: Abandoned website? Might as well do something fun with it
+  description: New with 2014-2020 past papers!
   images:
     - "media/thumbnail.jpg"
   doNotShowHeader: true
-
 #menu:
 #  main:
 #    - name: All Regions

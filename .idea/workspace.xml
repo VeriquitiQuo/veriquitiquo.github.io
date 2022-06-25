@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c425ab3-6853-4719-b41b-a3b49b845ce0" name="Changes" comment="Added CNAME, git info, and random tree sizes">
+    <list default="true" id="8d219d41-159a-494b-95f4-e3e5f85c869e" name="Changes" comment="Minimised css; added CNAME, git info, and random tree sizes">
+      <change afterPath="$PROJECT_DIR$/content/media/past paper.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/vq/layouts/_default/_markup/render-link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/vq/layouts/shortcodes/video.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/vq/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/common/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/common/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/bootstrap/scss/bootstrap.scss_f300667da4f5b5f84e1a9e0702b2fdde.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/bootstrap/scss/bootstrap.scss_f300667da4f5b5f84e1a9e0702b2fdde.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/common/scss/custom.scss_f300667da4f5b5f84e1a9e0702b2fdde.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/common/scss/custom.scss_f300667da4f5b5f84e1a9e0702b2fdde.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/custom.scss_48b060fe05b0a273d182ef83c0605941.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/custom.scss_48b060fe05b0a273d182ef83c0605941.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/custom.scss_48b060fe05b0a273d182ef83c0605941.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/custom.scss_48b060fe05b0a273d182ef83c0605941.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/vq/layouts/shortcodes/gitinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vq/layouts/shortcodes/gitinfo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -55,14 +68,14 @@
       <recent name="C:\Users\User\WebstormProjects\veriquitiquo.github.io\themes\vq\layouts\shortcodes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\veriquitiquo.github.io\static" />
       <recent name="C:\Users\User\WebstormProjects\veriquitiquo.github.io\content\media" />
+      <recent name="C:\Users\User\WebstormProjects\veriquitiquo.github.io\static" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8c425ab3-6853-4719-b41b-a3b49b845ce0" name="Changes" comment="" />
+      <changelist id="8d219d41-159a-494b-95f4-e3e5f85c869e" name="Changes" comment="Minimised css; added CNAME, git info, and random tree sizes" />
       <created>1655648581162</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -70,6 +83,8 @@
       <workItem from="1655648584082" duration="783000" />
       <workItem from="1655649390520" duration="11308000" />
       <workItem from="1655728548595" duration="4602000" />
+      <workItem from="1655987326811" duration="1065000" />
+      <workItem from="1656133172247" duration="5767000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1655649413112</created>
@@ -92,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655732703913</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Minimised css; added CNAME, git info, and random tree sizes">
+      <created>1655749073812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655749073812</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added CNAME, git info, and random tree sizes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CNAME, git info, and random tree sizes" />
+    <MESSAGE value="Minimised css; added CNAME, git info, and random tree sizes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minimised css; added CNAME, git info, and random tree sizes" />
   </component>
 </project>
