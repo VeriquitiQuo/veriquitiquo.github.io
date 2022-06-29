@@ -3,7 +3,7 @@ videos:
   - "media/past paper.mp4"
 ---
 
-Bodged together within 3 hours. More coming soon. [Tell us](https://instagram.com/veriquiti.quo) what awesome projects you want! (IG dm might not work?)
+Bodged together within 3 hours. More coming soon. [Click here tell us](https://instagram.com/veriquiti.quo) what awesome projects you want! (IG dm might not work?)
 
 ------
 
@@ -20,10 +20,17 @@ We saw complaints on the official past paper folder on social media. So we decid
 **[Follow this link](https://drive.google.com/file/d/1PYEaXJEfROT08XKLiVl4nqLcF09tsRWT/view?usp=sharing)** for the past paper files.
 
 Password: **favourite colour(s) of dress liked by a *QC teacher*, in order, in English, in lowercase, added together with nothing between.**  
-e.g. If favourite colour(s) of dress liked by QC teachers are `black`, `grey`, and `white`, then the password will be `blackgreywhite`.
+e.g. If the favourite colour(s) of dress liked by QC teachers are `black`, `grey`, and `white`, then the password will be `blackgreywhite`.
 
 You can open it with Google Drive's ZIP Extractor if you don't want to download it all at once.
 
-[Contact us](https://instagram.com/veriquiti.quo) if you have suggestions or comments. We may do it when we have time.
+Known issues:
+- Chinese characters in file names may not extract correctly.
+
+[Contact us here](https://instagram.com/veriquiti.quo) if you have suggestions or comments. We may do it when we have time.
+
+---
+
+*For the Queen's College Open Days 2021 website, please [click here](/open-days/).*
 
 {{< gitinfo >}}

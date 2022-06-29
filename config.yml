@@ -9,10 +9,10 @@ params:
 #  mainSections:
 #    - regions
   assets:
-    favicon: "media/favicon.ico"
-    favicon16x16: "media/favicon-16x16.png"
-    favicon32x32: "media/favicon-32x32.png"
-    apple_touch_icon: "media/apple-touch-icon.png"
+    favicon: favicon.ico
+    favicon16x16: favicon-16x16.png
+    favicon32x32: favicon-32x32.png
+    apple_touch_icon: apple-touch-icon.png
   disableThemeToggle: true
   disableScrollToTop: true
   ShowBreadCrumbs: true

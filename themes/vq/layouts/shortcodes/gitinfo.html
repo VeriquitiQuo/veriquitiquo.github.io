@@ -1,1 +1,7 @@
-<div id="gitinfo" class="small-grey-text">Updated {{ .Page.GitInfo.AuthorDate.Format "2006-01-02" }}: {{ .Page.GitInfo.Subject }}</div>
+<p id="gitinfo" class="small-grey-text">
+    {{- if .Page.GitInfo }}
+    Updated {{ .Page.GitInfo.AuthorDate.Format "2006-01-02" }}: {{ .Page.GitInfo.Subject }}
+    {{- else }}
+    No git info found
+    {{- end }}
+</p>
