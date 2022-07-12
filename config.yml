@@ -19,16 +19,19 @@ params:
   label:
     icon:
       - /media/veriquiti-quo-logo.png
-    iconHeight: 60
+    iconHeight: 40
     text: "Veriquiti Quo"
     doNotShowTitle: true
   env: production
   description: New with 2014-2020 past papers!
   images:
-    - "media/thumbnail.jpg"
-  doNotShowHeader: true
-#menu:
-#  main:
-#    - name: All Regions
-#      url: /regions/
+    - "/media/veriquiti-quo-logo.png"
+  showReadingTime: true
+  showgitinfo: true
+menu:
+  main:
+    - name: Projects
+      url: /projects/
+    - name: Open Days
+      url: /open-days/
 enableGitInfo: true

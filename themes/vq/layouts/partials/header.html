@@ -39,20 +39,20 @@
 </script>
 {{- end }}
 
-{{- if not (.Site.Params.doNotShowHeader | default false) }}
+{{- if not (.Param "hideHeader") }}
 <header class="header">
-    <nav class="navbar fixed-top navbar-expand-md navbar-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid post-header">
             <div class="logo">
                 {{- $label_text := (.Site.Params.label.text | default .Site.Title) }}
                 {{- if .Site.Title }}
-                <a class="navbar-brand" href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
+                <a class="navbar-brand" href='{{ "" | absLangURL }}' accesskey="h" title="{{ $label_text }} (Alt + Shift + H)">
                 {{- if .Site.Params.label.icon }}
                 <picture>
                     {{- range .Site.Params.label.icon }}
                     <source srcset="{{- . }}">
                     {{- end }}
-                    <img src="{{- index .Site.Params.label.icon 1 -}}" alt="logo" aria-label="logo" height="{{- .Site.Params.label.iconHeight | default " 30px" -}}">
+                    <img src='{{- index (last 1 .Site.Params.label.icon) 0 -}}' alt="logo" aria-label="logo" height='{{- .Site.Params.label.iconHeight | default " 30px" -}}'>
                 </picture>
                 {{- end -}}
                 {{- if (.Site.Params.label.doNotShowTitle | default false) }}
@@ -63,7 +63,7 @@
                 {{- end }}
                 <span class="logo-switches">
                         {{- if (not .Site.Params.disableThemeToggle) }}
-                        <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                        <button id="theme-toggle" accesskey="t" title="(Alt + Shift + T)">
                             <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                             </svg>
@@ -104,7 +104,7 @@
                 </span>
             </div>
             {{- $currentPage := . }}
-            <button aria-controls="nav-hide-content" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed" data-bs-target=".navbar-collapse" data-bs-toggle="collapse" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+            <button aria-controls="nav-hide-content" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed" data-bs-target="#nav-hide-content" data-bs-toggle="collapse" data-target="#nav-hide-content" data-toggle="collapse" type="button">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse flex-row-reverse" id="nav-hide-content">
@@ -114,7 +114,7 @@
                     {{- $page_url:= $currentPage.Permalink | absLangURL }}
                     {{- $is_search := eq ($.Site.GetPage .KeyName).Layout `search` }}
                     <li class="nav-item dropdown">
-                        <a class="btn" href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
+                        <a class="btn" href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + Shift + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                         {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
                         <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
                             {{- .Pre }}

@@ -1,15 +1,30 @@
 {{- define "main" }}
-<div class="tree-wrapper">
-    <h1 class="post-content">Online Tree Planting</h1>
-    <span class="post-content tree-desc">Click the space below to plant a tree. Totally not stupid. No water required💦</span>
-    <div class="visually-hidden">
-        <img id="source" src="/media/Jungle_Tree.webp">
-    </div>
-    <h2 class="post-content">Trees Planted: <span id="counter">0</span></h2>
-    <canvas height="400" id="trees" width="500"></canvas>
-</div>
-<div class="main-content">
 
+<div class="main-content">
+    <div class="logo">
+        {{- $label_text := (.Site.Params.label.text | default .Site.Title) }}
+        {{- if .Site.Title }}
+        <a accesskey='h' class='navbar-brand' href='{{ "" | absLangURL }}' title='{{ $label_text }} (Alt + Shift + H)'>
+            {{- if .Site.Params.label.icon }}
+            <picture>
+                {{- range .Site.Params.label.icon }}
+                <source srcset="{{- . }}">
+                {{- end }}
+                <img alt='logo' aria-label='logo' height='{{- .Site.Params.label.iconHeight | default "30px" -}}' src='{{- index (last 1 .Site.Params.label.icon) 0 -}}'>
+            </picture>
+            {{- end -}}
+            {{- if (.Site.Params.label.doNotShowTitle | default false) }}
+            {{- else }}
+            {{- $label_text -}}
+            {{- end -}}
+        </a>
+        {{- end }}
+    </div>
+    <h1>
+        <span>Build your ideas.</span>
+        <span></span>
+        <span></span>
+    </h1>
     {{- if .Content }}
     <div class="post-content">
         {{- if not (.Param "disableAnchoredHeadings") }}
@@ -17,6 +32,15 @@
         {{- else }}{{ .Content }}{{ end }}
     </div>
     {{- end }}
+
+    <div class="button-wrapper">
+        <a class="btn icon-btn" href="https://instagram.com/veriquiti.quo" role="button" target="_blank">
+            <svg class="right-arrow" viewBox="0 0 20 20">
+                <path d="M16 10l-4.707 4.707a1 1 0 01-1.414-1.414L12.172 11H5a1 1 0 110-2h7.172L9.879 6.707a1 1 0 011.414-1.414L16 10z"></path>
+            </svg>
+            Follow us
+        </a>
+    </div>
 
     {{- $pages := union .RegularPages .Sections }}
 
@@ -31,7 +55,7 @@
     {{- end }}
 
     {{- $term := .Data.Term }}
-    {{- range $index, $page := $paginator.Pages }}
+    {{- range $index, $page := first 2 $paginator.Pages }}
 
     {{- $class := "post-entry" }}
 
@@ -47,34 +71,51 @@
             {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList) }}
             {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
             <header class="entry-header">
-                <h2>
-                    {{- .Title }}
-                    {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }} </h2>
+                {{- .Title }}
             </header>
             {{- if (ne (.Param "hideSummary") true) }}
             <section class="entry-content">
-                <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+                <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}
+                    <svg class="right-arrow" viewBox="0 0 20 20">
+                        <path d="M16 10l-4.707 4.707a1 1 0 01-1.414-1.414L12.172 11H5a1 1 0 110-2h7.172L9.879 6.707a1 1 0 011.414-1.414L16 10z"></path>
+                    </svg>
+                </p>
             </section>
-            {{- end }}
-            {{- if not (.Param "hideMeta") }}
-            <footer class="entry-footer">
-                {{- partial "post_meta.html" . -}}
-            </footer>
             {{- end }}
         </a>
     </article>
     {{- end }}
-
-    {{- if gt $paginator.TotalPages 1 }}
-    <footer class="page-footer">
-        <nav class="pagination">
-            {{- if $paginator.HasPrev }}
-            <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
-            {{- end }}
-            {{- if $paginator.HasNext }}
-            <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
-            {{- end }}
-        </nav>
-    </footer>
+    {{- $page := .GetPage "/open-days/"}}
+    {{- with $page }}
+    <article class="post-entry" id="open-days">
+        <a aria-label="post link to {{ .Title | plainify }}" class="entry-link" href="{{ .Permalink }}">
+            {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList) }}
+            {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+            <header class="entry-header">
+                {{- .Title }}
+                <svg class="right-arrow" viewBox="0 0 20 20">
+                    <path d="M16 10l-4.707 4.707a1 1 0 01-1.414-1.414L12.172 11H5a1 1 0 110-2h7.172L9.879 6.707a1 1 0 011.414-1.414L16 10z"></path>
+                </svg>
+            </header>
+        </a>
+    </article>
     {{- end }}
+</div><p class="side-text">
+    <span>not official qc</span>
+    <span aria-hidden="true">not official qc</span>
+    <span aria-hidden="true">not official qc</span>
+    <span aria-hidden="true">not official qc</span>
+    <span aria-hidden="true">not official qc</span>
+    <span aria-hidden="true">not official qc</span>
+</p>
+<div class="pattern-wrapper">
+    <div class="pattern">
+        <div class="pattern-strip"></div>
+        <div class="pattern-strip"></div>
+        <div class="pattern-strip"></div>
+        <div class="pattern-strip"></div>
+        <div class="pattern-strip"></div>
+        <div class="pattern-strip"></div>
+        <div class="pattern-strip"></div>
+    </div>
 </div>{{- end }}

@@ -55,6 +55,12 @@
 {{- end }}
 {{- end }}
 
+{{- /* Bootstrap JS */}}
+{{- with resources.Get "bootstrap/js/bootstrap.bundle.min.js" }}
+{{- $core := resources.Get "bootstrap/js/bootstrap.bundle.min.js" | resources.Fingerprint }}
+<script src="{{ $core.RelPermalink }}" integrity="{{ $core.Data.Integrity }}"></script>
+{{- end }}
+
 {{- /* Custom JS */}}
 {{- $path := printf "%sjs/custom.js" $.RelPermalink }}
 
@@ -66,7 +72,7 @@
 {{- /* Fonts */}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 
 {{- /* Search */}}
 {{- if (eq .Layout `search`) -}}

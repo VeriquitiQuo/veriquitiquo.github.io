@@ -1,6 +1,7 @@
 ---
 title: Queen's College Open Days 2021
 description: Archive of the Queen's College Open Days 2021 website. Most files are lost.
+summary: Archive of the Queen's College Open Days 2021 website. Most files are lost.
 ---
 
 {{< rawhtml >}}
@@ -10,5 +11,3 @@ description: Archive of the Queen's College Open Days 2021 website. Most files a
 {{< /rawhtml >}}
 
 [Contact us here](https://instagram.com/veriquiti.quo) if you have suggestions or comments. We may do it when we have time. Don't ask us about 2022's we're not Aqua.
-
-{{< gitinfo >}}
