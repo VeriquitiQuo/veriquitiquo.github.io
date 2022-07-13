@@ -3,6 +3,10 @@ title: Online Tree Planting
 description: We've got our student council's back. Here's an online tree planting activity as they promised.
 date: 2022-06-20
 summary: We've got our student council's back. Here's an online tree planting activity as they promised.
+cover:
+    image: media/thumbnail.jpg
+    hidden: true
+    relative: true
 ---
 
 {{< rawhtml >}}

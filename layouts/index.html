@@ -68,8 +68,6 @@
 
     <article class="{{ $class }}">
         <a aria-label="post link to {{ .Title | plainify }}" class="entry-link" href="{{ .Permalink }}">
-            {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList) }}
-            {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
             <header class="entry-header">
                 {{- .Title }}
             </header>

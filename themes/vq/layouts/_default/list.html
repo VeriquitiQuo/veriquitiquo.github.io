@@ -66,9 +66,10 @@
 
 <article class="{{ $class }}">
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">
-  {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList) }}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
-  <header class="entry-header">
+    {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList) }}
+    {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+    <div class="entry-text">
+    <header class="entry-header">
       <h2>
         {{- .Title }}
         {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
@@ -76,17 +77,18 @@
           <path d="M16 10l-4.707 4.707a1 1 0 01-1.414-1.414L12.172 11H5a1 1 0 110-2h7.172L9.879 6.707a1 1 0 011.414-1.414L16 10z"></path>
         </svg>
       </h2>
-  </header>
-  {{- if (ne (.Param "hideSummary") true) }}
-  <section class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-  </section>
-  {{- end }}
-  {{- if not (.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
-  </footer>
-  {{- end }}
+    </header>
+    {{- if (ne (.Param "hideSummary") true) }}
+    <section class="entry-content">
+      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    </section>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <footer class="entry-footer">
+      {{- partial "post_meta.html" . -}}
+    </footer>
+    {{- end }}
+    </div>
   </a>
 </article>
 {{- end }}
