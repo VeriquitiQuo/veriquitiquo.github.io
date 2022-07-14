@@ -35,3 +35,8 @@ menu:
     - name: Open Days
       url: /open-days/
 enableGitInfo: true
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true

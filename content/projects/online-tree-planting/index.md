@@ -7,6 +7,7 @@ cover:
     image: media/thumbnail.jpg
     hidden: true
     relative: true
+weight: 10
 ---
 
 {{< rawhtml >}}
@@ -21,4 +22,3 @@ cover:
 {{< /rawhtml >}}
 
 Bodged together within 3 hours. More coming soon. [Click here tell us](https://instagram.com/veriquiti.quo) what awesome projects you want! (IG dm might not work?)
-

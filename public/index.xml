@@ -12,11 +12,20 @@
     <language>en-HK</language>
     <copyright>&amp;copy; 2022 Veriquiti Quo</copyright><atom:link href="https://qcopendays.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Online Tree Planting</title>
+      <link>https://qcopendays.com/projects/online-tree-planting/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://qcopendays.com/projects/online-tree-planting/</guid>
+      <description>We&amp;#39;ve got our student council&amp;#39;s back. Here&amp;#39;s an online tree planting activity as they promised.</description>
+    </item>
+    
+    <item>
       <title>2022 Yearly Exam Preliminary Result</title>
-      <link>https://qcopendays.com/yearly-exam-preliminary-result/</link>
+      <link>https://qcopendays.com/projects/yearly-exam-preliminary-result/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://qcopendays.com/yearly-exam-preliminary-result/</guid>
+      <guid>https://qcopendays.com/projects/yearly-exam-preliminary-result/</guid>
       <description>Preliminary result and statistics of the 2022 Yearly Exam. For reference only.</description>
     </item>
     
@@ -27,15 +36,6 @@
       
       <guid>https://qcopendays.com/projects/past-paper/</guid>
       <description>We saw complaints on the official one. So we made one with more years &amp;amp; better structured.</description>
-    </item>
-    
-    <item>
-      <title>Online Tree Planting</title>
-      <link>https://qcopendays.com/projects/online-tree-planting/</link>
-      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://qcopendays.com/projects/online-tree-planting/</guid>
-      <description>We&amp;#39;ve got our student council&amp;#39;s back. Here&amp;#39;s an online tree planting activity as they promised.</description>
     </item>
     
   </channel>
