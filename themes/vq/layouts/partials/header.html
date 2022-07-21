@@ -42,7 +42,7 @@
 {{- if not (.Param "hideHeader") }}
 <header class="header">
     <nav class="navbar navbar-expand-sm navbar-dark">
-        <div class="container-fluid post-header">
+        <div class="container-fluid navbar-content">
             <div class="logo">
                 {{- $label_text := (.Site.Params.label.text | default .Site.Title) }}
                 {{- if .Site.Title }}

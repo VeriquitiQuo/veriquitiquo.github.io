@@ -35,7 +35,7 @@
 
     <div class="button-wrapper">
         <a class="btn icon-btn" href="https://instagram.com/veriquiti.quo" role="button" target="_blank">
-            <svg class="right-arrow" viewBox="0 0 20 20">
+            <svg class="icon right-arrow" viewBox="0 0 20 20">
                 <path d="M16 10l-4.707 4.707a1 1 0 01-1.414-1.414L12.172 11H5a1 1 0 110-2h7.172L9.879 6.707a1 1 0 011.414-1.414L16 10z"></path>
             </svg>
             Follow us
@@ -74,7 +74,7 @@
             {{- if (ne (.Param "hideSummary") true) }}
             <section class="entry-content">
                 <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}
-                    <svg class="right-arrow" viewBox="0 0 20 20">
+                    <svg class="icon right-arrow" viewBox="0 0 20 20">
                         <path d="M16 10l-4.707 4.707a1 1 0 01-1.414-1.414L12.172 11H5a1 1 0 110-2h7.172L9.879 6.707a1 1 0 011.414-1.414L16 10z"></path>
                     </svg>
                 </p>
@@ -91,7 +91,7 @@
             {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
             <header class="entry-header">
                 {{- .Title }}
-                <svg class="right-arrow" viewBox="0 0 20 20">
+                <svg class="icon right-arrow" viewBox="0 0 20 20">
                     <path d="M16 10l-4.707 4.707a1 1 0 01-1.414-1.414L12.172 11H5a1 1 0 110-2h7.172L9.879 6.707a1 1 0 011.414-1.414L16 10z"></path>
                 </svg>
             </header>

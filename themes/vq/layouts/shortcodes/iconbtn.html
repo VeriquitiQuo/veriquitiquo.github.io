@@ -1,5 +1,5 @@
 <a {{- if (.Get "id") }} id='{{- .Get "id" }}' {{- end }} class='btn icon-btn {{- if (.Get "class") }}{{- .Get "id" }}{{- end }}' {{- if (.Get "text") }}href='{{- .Get "href" }}'{{- end }} role='button' title='{{- if (.Get "text") }}{{- .Get "text" }}{{- end }}'>
-    <svg class="right-arrow" viewBox="0 0 20 20">
+    <svg class="icon right-arrow" viewBox="0 0 20 20">
         <path d="M16 10l-4.707 4.707a1 1 0 01-1.414-1.414L12.172 11H5a1 1 0 110-2h7.172L9.879 6.707a1 1 0 011.414-1.414L16 10z"></path>
     </svg>
     {{- if (.Get "text") }}{{- .Get "text" }}{{- end }}

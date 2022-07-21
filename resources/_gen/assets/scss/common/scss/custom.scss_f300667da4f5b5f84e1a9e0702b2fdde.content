@@ -62,7 +62,7 @@ p {
 
 a {
   position: relative;
-  display: inline-block;
+  display: inline;
   color: inherit;
   text-decoration: none;
   font-weight: 600;
@@ -72,8 +72,35 @@ a {
     color: inherit;
     border-bottom-color: var(--theme2); }
 
-picture, img {
-  display: block; }
+picture, img, svg {
+  display: block;
+  vertical-align: middle; }
+
+h6 picture, h6 img, h6 svg, .h6 picture, .h6 img, .h6 svg, h5 picture, h5 img, h5 svg, .h5 picture, .h5 img, .h5 svg, h4 picture, h4 img, h4 svg, .h4 picture, .h4 img, .h4 svg, h3 picture, h3 img, h3 svg, .h3 picture, .h3 img, .h3 svg, h2 picture, h2 img, h2 svg, .h2 picture, .h2 img, .h2 svg, h1 picture, h1 img, h1 svg, .h1 picture, .h1 img, .h1 svg {
+  display: block;
+  vertical-align: top; }
+
+.limit-width, .footnotes {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--gap);
+  padding-right: var(--gap);
+  max-width: calc(var(--main-width) + 2 * var(--gap)); }
+
+sup, sub {
+  line-height: .75; }
+  sup a, sub a {
+    font-weight: 900; }
+
+.blockquote-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 1em auto;
+  padding: 0 var(--gap); }
+  .blockquote-wrapper > * {
+    border-left: solid 3px var(--theme5);
+    padding: 0 1rem; }
 
 .btn {
   background: var(--theme4);
@@ -133,6 +160,12 @@ picture, img {
   .navbar *::selection, .post-header-wrapper *::selection, .page-header-wrapper *::selection {
     color: var(--bs-primary);
     text-shadow: none; }
+
+.navbar-content {
+  position: relative;
+  margin: 0 auto 0 auto;
+  padding: 0 var(--gap);
+  max-width: calc(var(--main-width) + 2 * var(--gap)); }
 
 main .post-header, main .post-content, main .post-footer, main .page-header, main .post-entry {
   transform-origin: 0 50%;
@@ -300,13 +333,22 @@ main .post-header, main .post-content, main .post-footer, main .page-header, mai
   align-items: center;
   gap: 1em; }
 
-.right-arrow {
+.entry-header h2, .entry-header .h2 {
+  margin-top: .5rem; }
+
+.icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  background: var(--theme2);
+  width: 1.2em;
+  height: 1.2em;
   line-height: 1.2; }
+
+.right-arrow {
+  background: var(--theme2);
+  border-radius: .6em; }
+
+.exclamation {
+  background: var(--theme4);
+  border-radius: .6em; }
 
 .entry-cover {
   position: relative;
@@ -348,8 +390,8 @@ iframe {
   display: block;
   position: relative;
   height: 100vh;
-  width: 100%;
-  margin: 1em 0; }
+  width: calc(100% - 2rem);
+  margin: 1em; }
   iframe.youtube {
     aspect-ratio: 16/9;
     height: unset; }
@@ -364,4 +406,5 @@ iframe {
   .first-entry .entry-cover, .first-entry .entry-cover img, .post-entry .entry-cover, .post-entry .entry-cover img {
     max-width: unset;
     width: 100%;
+    max-height: 300px;
     height: unset; } }
